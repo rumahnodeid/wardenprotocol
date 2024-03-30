@@ -11,6 +11,9 @@ out the documentation website at: https://docs.wardenprotocol.org/.
 
 ## License
 
+## RUNNING WARDEN-PROTOCOL TESTNET
+
+
 With the exception of the SpaceWard folder, this project is released under the
 terms of the Apache 2.0 License - see [LICENSE](./LICENSE) for details.
 

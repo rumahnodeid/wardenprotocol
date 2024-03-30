@@ -12,7 +12,16 @@ out the documentation website at: https://docs.wardenprotocol.org/.
 ## License
 
 ## RUNNING WARDEN-PROTOCOL TESTNET
+## SPESIFICATION REQUIREMENT AND RUNNING ON MY OWN SERVER 
+8 Cores, 16GB RAM DDR4,  512G SSD, Ubuntu 22.04
 
+## JOINING ALFAMA TESTNET
+git clone --depth 1 --branch v0.1.0 https://github.com/warden-protocol/wardenprotocol/
+cd  wardenprotocol/warden/cmd/wardend
+go build
+
+sudo mv wardend /usr/local/bin/
+wardend init <your moniker name>
 
 With the exception of the SpaceWard folder, this project is released under the
 terms of the Apache 2.0 License - see [LICENSE](./LICENSE) for details.
